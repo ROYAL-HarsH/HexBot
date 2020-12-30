@@ -10,7 +10,7 @@ from discord.ext import commands
 from utils import canvas
 
 bot = commands.Bot(command_prefix=commands.when_mentioned_or("~"),
-                    description='Relatively simply awesome bot.',
+                    description='HarsH's Official Bot',
                     case_insensitive=True,
                     intents=discord.Intents.all())
 
@@ -18,7 +18,7 @@ bot.remove_command('help')
 
 bot.uptime = datetime.datetime.now()
 bot.messages_in = bot.messages_out = 0
-bot.region = 'Mumbai, IN'
+bot.region = 'Amritsar, IN'
 
 @bot.event
 async def on_ready():
